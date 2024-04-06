@@ -7,7 +7,7 @@ const globalPlayerStatsQuery = `
            CAST(SUM(battles_won) AS signed)    AS totalBattlesWon,
            CAST(SUM(caught_pokemon) AS signed) AS totalPokemonCaught
     FROM   player
-    WHERE  friendship_id IS NOT NULL
+    WHERE  friendship_id IS NOT NULL OR friend_code IS NOT NULL
     ORDER  BY xp DESC;
 `;
 

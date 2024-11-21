@@ -117,7 +117,7 @@
     "@headlessui/react": "^1.7.17",
     "@next-auth/sequelize-adapter": "^1.0.8",
     "clsx": "^1.2.1",
-    "cron": "^2.4.4",
+    "cron": "^3.1.6",
     "discord-api-types": "^0.37.56",
     "mysql2": "^3.6.0",
     "next": "^13.5.6",
